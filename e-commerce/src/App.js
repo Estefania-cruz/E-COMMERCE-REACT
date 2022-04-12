@@ -7,6 +7,7 @@ import Product from "./component/Product";
 import Cart from "./component/Cart";
 import Login from "./component/Login";
 import Register from "./component/Register";
+import Contact from "./component/Contact";
 //import { Route, Switch } from "react-router";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
       <Route path='/cart' element={<Cart/>} />
       <Route path='/login' element={<Login/>} />
       <Route path='/register' element={<Register/>} />
+      <Route path='/contact' element={<Contact/>} />
       </Routes>
      
     </>
