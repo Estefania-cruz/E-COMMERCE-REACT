@@ -69,17 +69,14 @@ const Cart = () => {
       <>
         <div className="container">
           <div className="row">
-            <NavLink
-              to="/checkout"
-              className="btn btn-outline-dark mb-5 w-25 mx-auto"
-            >
-              PProceos de pago.
+            <NavLink to="/checkout" className="btn btn-outline-dark mb-5 w-25 mx-auto">
+                Proceos de pago.
             </NavLink>
           </div>
         </div>
       </>
-    );
-  };
+    )
+  }
 
   return (
     <div>

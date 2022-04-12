@@ -5,6 +5,8 @@ import { Routes ,Route } from 'react-router-dom';
 import Products from "./component/Products";
 import Product from "./component/Product";
 import Cart from "./component/Cart";
+import Login from "./component/Login";
+import Register from "./component/Register";
 //import { Route, Switch } from "react-router";
 
 function App() {
@@ -16,6 +18,8 @@ function App() {
       <Route path='/products' element={<Products/>} />
       <Route path='/roducts/:id' element={<Product/>} />
       <Route path='/cart' element={<Cart/>} />
+      <Route path='/login' element={<Login/>} />
+      <Route path='/register' element={<Register/>} />
       </Routes>
      
     </>

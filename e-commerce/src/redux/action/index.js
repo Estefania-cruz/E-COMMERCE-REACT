@@ -1,4 +1,4 @@
-// For Add Item to Cart
+//sse agrega al carrito
 export const addCart = (product) => {
     return{
         type : "ADDITEM",
@@ -7,7 +7,7 @@ export const addCart = (product) => {
 }
 
 
-// For Delete Item From Cart
+// se borra del carrito
 export const delCart = (product) => {
     return{
         type : "DELITEM",
