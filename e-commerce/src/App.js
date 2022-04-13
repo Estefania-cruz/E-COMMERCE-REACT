@@ -10,6 +10,7 @@ import Register from "./component/Register";
 import Contact from "./component/Contact";
 import PaymentForms from "../src/js/PaymentForms";
 import PaymentForm from "../src/js/PaymentForm";
+import Checkout from "./component/Checkout";
 
 function App() {
   return (
@@ -23,10 +24,9 @@ function App() {
       <Route path='/login' element={<Login/>} />
       <Route path='/register' element={<Register/>} />
       <Route path='/contact' element={<Contact/>} />
+      <Route path='/Checkout' element={<Checkout/>} />
       </Routes>
-      <div className="layout">
-          <PaymentForms />
-      </div>
+     
     </>
   );
 }

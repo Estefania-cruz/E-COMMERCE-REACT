@@ -1,11 +1,12 @@
-import React, {handleFocusChange, handleInputChange, processPayment,  useState}from 'react';
-
+import React from 'react';
+import PaymentForms from "../js/PaymentForms";
+import PaymentForm from "../js/PaymentForm";
 
 const Checkout = () => {
   return (
-    <div>
-
-    </div>
+    <div className="layout">
+    <PaymentForms />
+</div>
   )
 };
 
