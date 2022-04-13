@@ -8,7 +8,7 @@ import Cart from "./component/Cart";
 import Login from "./component/Login";
 import Register from "./component/Register";
 import Contact from "./component/Contact";
-//import { Route, Switch } from "react-router";
+import Checkout from "./component/Checkout";
 
 function App() {
   return (
@@ -22,6 +22,7 @@ function App() {
       <Route path='/login' element={<Login/>} />
       <Route path='/register' element={<Register/>} />
       <Route path='/contact' element={<Contact/>} />
+      <Route path='/Checkout' element={<Checkout/>} />
       </Routes>
      
     </>

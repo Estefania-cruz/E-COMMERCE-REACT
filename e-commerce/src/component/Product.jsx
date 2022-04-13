@@ -4,6 +4,7 @@ import { addCart } from '../redux/action';
 import { useParams } from 'react-router';
 import { NavLink } from 'react-router-dom';
 import Skeleton from 'react-loading-skeleton';
+import Products from './Products';
 
 const Product = () => {
 
@@ -68,7 +69,7 @@ const Product = () => {
                     </button>
                     <NavLink to="/cart" className="btn btn-dark ms-2 px-3 py-2">
                         Ir al Carro.
-                    </NavLink>
+                    </NavLink> 
                 </div>
             </>
         )
